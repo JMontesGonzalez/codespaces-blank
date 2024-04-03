@@ -1,0 +1,55 @@
+@font-face {
+  font-family: fontFirst;
+  src: url(CaviarDreams.ttf);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-image: url(train2.jpg);
+  
+color: #ffffff;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  font-family: fontFirst;
+  margin-bottom:10px;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: fontFirst;
+  font-size:25px;
+   padding: 10px;
+  font-weight:bold;
+  transition: transform 0.3s ,font-size 0.3s;
+  
+}
+a:hover{
+  font-size:30px;
+  margin-left:5px;
+  margin-right:5px;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  font-family: fontFirst;
+}
+
+
+
+p{
+  font-size: 20px;
+  font-family: fontFirst;
+  line-height: 1.8;
+}
+
+.main{
+  display: flex;
+  
+}
+
+
+
